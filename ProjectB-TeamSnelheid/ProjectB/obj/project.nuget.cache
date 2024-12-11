@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "1j3zWhcgtLk=",
+  "dgSpecHash": "VlLyuYzJxHM=",
   "success": true,
-  "projectFilePath": "C:\\Users\\ryand\\Desktop\\ProjectB-TeamSnelheid\\ProjectB\\ProjectB.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\ryand\\Desktop\\ProjectB-TeamSnelheid\\ProjectB-TeamSnelheid\\ProjectB-TeamSnelheid\\ProjectB\\ProjectB.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ryand\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\ryand\\.nuget\\packages\\spectre.console\\0.49.2-preview.0.69\\spectre.console.0.49.2-preview.0.69.nupkg.sha512",
+    "C:\\Users\\ryand\\.nuget\\packages\\spectre.console.cli\\0.49.2-preview.0.69\\spectre.console.cli.0.49.2-preview.0.69.nupkg.sha512"
+  ],
   "logs": []
 }

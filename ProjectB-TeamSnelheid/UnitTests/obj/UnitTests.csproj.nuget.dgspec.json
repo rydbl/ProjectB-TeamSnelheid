@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ryand\\Desktop\\ProjectB-TeamSnelheid\\UnitTests\\UnitTests.csproj": {}
+    "C:\\Users\\ryand\\Desktop\\ProjectB-TeamSnelheid\\ProjectB-TeamSnelheid\\ProjectB-TeamSnelheid\\UnitTests\\UnitTests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ryand\\Desktop\\ProjectB-TeamSnelheid\\ProjectB\\ProjectB.csproj": {
+    "C:\\Users\\ryand\\Desktop\\ProjectB-TeamSnelheid\\ProjectB-TeamSnelheid\\ProjectB-TeamSnelheid\\ProjectB\\ProjectB.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ryand\\Desktop\\ProjectB-TeamSnelheid\\ProjectB\\ProjectB.csproj",
+        "projectUniqueName": "C:\\Users\\ryand\\Desktop\\ProjectB-TeamSnelheid\\ProjectB-TeamSnelheid\\ProjectB-TeamSnelheid\\ProjectB\\ProjectB.csproj",
         "projectName": "ProjectB",
-        "projectPath": "C:\\Users\\ryand\\Desktop\\ProjectB-TeamSnelheid\\ProjectB\\ProjectB.csproj",
+        "projectPath": "C:\\Users\\ryand\\Desktop\\ProjectB-TeamSnelheid\\ProjectB-TeamSnelheid\\ProjectB-TeamSnelheid\\ProjectB\\ProjectB.csproj",
         "packagesPath": "C:\\Users\\ryand\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ryand\\Desktop\\ProjectB-TeamSnelheid\\ProjectB\\obj\\",
+        "outputPath": "C:\\Users\\ryand\\Desktop\\ProjectB-TeamSnelheid\\ProjectB-TeamSnelheid\\ProjectB-TeamSnelheid\\ProjectB\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ryand\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -44,6 +44,20 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "Spectre.Console": {
+              "target": "Package",
+              "version": "[0.49.2-preview.0.69, )"
+            },
+            "Spectre.Console.Cli": {
+              "target": "Package",
+              "version": "[0.49.2-preview.0.69, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -64,14 +78,14 @@
         }
       }
     },
-    "C:\\Users\\ryand\\Desktop\\ProjectB-TeamSnelheid\\UnitTests\\UnitTests.csproj": {
+    "C:\\Users\\ryand\\Desktop\\ProjectB-TeamSnelheid\\ProjectB-TeamSnelheid\\ProjectB-TeamSnelheid\\UnitTests\\UnitTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ryand\\Desktop\\ProjectB-TeamSnelheid\\UnitTests\\UnitTests.csproj",
+        "projectUniqueName": "C:\\Users\\ryand\\Desktop\\ProjectB-TeamSnelheid\\ProjectB-TeamSnelheid\\ProjectB-TeamSnelheid\\UnitTests\\UnitTests.csproj",
         "projectName": "UnitTests",
-        "projectPath": "C:\\Users\\ryand\\Desktop\\ProjectB-TeamSnelheid\\UnitTests\\UnitTests.csproj",
+        "projectPath": "C:\\Users\\ryand\\Desktop\\ProjectB-TeamSnelheid\\ProjectB-TeamSnelheid\\ProjectB-TeamSnelheid\\UnitTests\\UnitTests.csproj",
         "packagesPath": "C:\\Users\\ryand\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ryand\\Desktop\\ProjectB-TeamSnelheid\\UnitTests\\obj\\",
+        "outputPath": "C:\\Users\\ryand\\Desktop\\ProjectB-TeamSnelheid\\ProjectB-TeamSnelheid\\ProjectB-TeamSnelheid\\UnitTests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ryand\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -88,8 +102,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\ryand\\Desktop\\ProjectB-TeamSnelheid\\ProjectB\\ProjectB.csproj": {
-                "projectPath": "C:\\Users\\ryand\\Desktop\\ProjectB-TeamSnelheid\\ProjectB\\ProjectB.csproj"
+              "C:\\Users\\ryand\\Desktop\\ProjectB-TeamSnelheid\\ProjectB-TeamSnelheid\\ProjectB-TeamSnelheid\\ProjectB\\ProjectB.csproj": {
+                "projectPath": "C:\\Users\\ryand\\Desktop\\ProjectB-TeamSnelheid\\ProjectB-TeamSnelheid\\ProjectB-TeamSnelheid\\ProjectB\\ProjectB.csproj"
               }
             }
           }
