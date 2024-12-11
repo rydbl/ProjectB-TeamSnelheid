@@ -1,0 +1,30 @@
+[
+    {
+      "name": "John Doe",
+      "emailAddress": "john@example.com",
+      "phoneNumber": "123456789",
+      "password": "password123",
+      "dateOfBirth": "01-01-1990",
+      "address": "123 Main St",
+      "preferences": [],
+      "isAdmin": false,
+      "reservations": [
+        {
+          "date": "01-12-2024",
+          "time": "14:00",
+          "amount": "3"
+        }
+      ]
+    },
+    {
+      "name": "Admin Jane",
+      "emailAddress": "admin@example.com",
+      "phoneNumber": "987654321",
+      "password": "adminpass",
+      "dateOfBirth": "01-01-1985",
+      "address": "456 Admin Rd",
+      "preferences": [],
+      "isAdmin": true,
+      "reservations": []
+    }
+  ]
