@@ -11,10 +11,10 @@ static class CreateAccount
 
 
         var dateOfBirth = signUpChecker.ValidateDate(() =>
-            AnsiConsole.Prompt(new TextPrompt<string>("Enter Date of Birth (DD-MM-YYYY): ").AllowEmpty()));
+            AnsiConsole.Prompt(new TextPrompt<string>("Enter Date of Birth (DD-MM-YYYY): (optional)").AllowEmpty()));
         
         var address = signUpChecker.ValidateAddress(() =>
-            AnsiConsole.Prompt(new TextPrompt<string>("Enter your Address: ").AllowEmpty()));
+            AnsiConsole.Prompt(new TextPrompt<string>("Enter your Address: (optional)").AllowEmpty()));
 
         var phoneNumber = signUpChecker.PhoneNumberRules(() =>
             AnsiConsole.Prompt(new TextPrompt<string>("Enter your Phone Number: "))

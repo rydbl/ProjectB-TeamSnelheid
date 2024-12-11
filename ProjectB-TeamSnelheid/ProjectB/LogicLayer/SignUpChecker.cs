@@ -133,6 +133,12 @@ public class SignUpChecker
                 continue;
             }
 
+            if (parsedDate.Year > 2020)
+            {
+                Console.WriteLine("Year must be earlier than 2021");
+                continue;
+            }
+
             return date;
         }
     }
