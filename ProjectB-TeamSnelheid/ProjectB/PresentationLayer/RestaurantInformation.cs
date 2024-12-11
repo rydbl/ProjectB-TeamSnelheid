@@ -72,7 +72,6 @@ public static class RestaurantInformation
     // }
     public static void PrintRestaurantInformation()
     {   
-        AnsiConsole.WriteLine("hoi");
         AnsiConsole.MarkupLine($"[maroon]Restaurant Name:[/] {restaurantName}");
         AnsiConsole.WriteLine("");
         AnsiConsole.MarkupLine($"[maroon]Address:[/] {address}");
