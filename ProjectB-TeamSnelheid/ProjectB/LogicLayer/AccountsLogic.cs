@@ -1,6 +1,6 @@
 using Spectre.Console;
 
-class AccountsLogic
+public class AccountsLogic
 {
     private List<UserModel> _accounts;
 
@@ -89,6 +89,11 @@ class AccountsLogic
 
         return CurrentAccount;
 
+    }
+
+    public void AddAccountForTesting(UserModel user)
+    {
+        _accounts.Add(user);
     }
 
     public void CreateUser(string name, string email, string phone, string rights, string password = "", string dateOfBirth = "", string address = "", List<string> preferences = null)

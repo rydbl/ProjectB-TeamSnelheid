@@ -1,7 +1,7 @@
 using System.Text.Json.Serialization;
 
 
-class GuestModel
+public class GuestModel
 {
     [JsonPropertyName("name")]
     public string Name { get; set; }

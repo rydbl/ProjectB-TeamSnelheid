@@ -2,7 +2,7 @@ using System.Text.Json.Serialization;
 using System.Xml.Serialization;
 using Spectre.Console;
 
-class UserModel : GuestModel
+public class UserModel : GuestModel
 {
     [JsonPropertyName("password")]
     public string Password { get; set; }
