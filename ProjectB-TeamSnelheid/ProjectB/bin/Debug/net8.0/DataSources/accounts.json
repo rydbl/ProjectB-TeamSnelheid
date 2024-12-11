@@ -1,0 +1,95 @@
+[
+  {
+    "password": "password123",
+    "dateOfBirth": "01-01-1990",
+    "address": "123 Main St",
+    "isAdmin": false,
+    "isGuest": false,
+    "isEmployee": false,
+    "reservations": [],
+    "name": "John Doe",
+    "emailAddress": "john@example.com",
+    "phoneNumber": "1234567890",
+    "preferences": [
+      "Soy"
+    ]
+  },
+  {
+    "password": "adminpass",
+    "dateOfBirth": "01-01-1985",
+    "address": "456 Admin Rd",
+    "isAdmin": true,
+    "isGuest": false,
+    "isEmployee": false,
+    "reservations": [],
+    "name": "Admin Jane",
+    "emailAddress": "admin@example.com",
+    "phoneNumber": "987654321",
+    "preferences": []
+  },
+  {
+    "password": "Klampetoren12!",
+    "dateOfBirth": "01-01-2000",
+    "address": "woning 12",
+    "isAdmin": false,
+    "isGuest": false,
+    "isEmployee": true,
+    "reservations": [],
+    "name": "employee1",
+    "emailAddress": "woningklemmer@hotmail.com",
+    "phoneNumber": "0612345678",
+    "preferences": []
+  },
+  {
+    "password": "Qwerty123!",
+    "dateOfBirth": "01-11-2002",
+    "address": "dfter 123",
+    "isAdmin": false,
+    "isGuest": false,
+    "isEmployee": true,
+    "reservations": [],
+    "name": "Ryan",
+    "emailAddress": "ryan@gmail.com",
+    "phoneNumber": "1234567890",
+    "preferences": []
+  },
+  {
+    "password": "Paaswoord123!",
+    "dateOfBirth": "11-11-1111",
+    "address": "sesamstraat",
+    "isAdmin": false,
+    "isGuest": false,
+    "isEmployee": false,
+    "reservations": [],
+    "name": "Eric",
+    "emailAddress": "eric@gmail.com",
+    "phoneNumber": "0623456987",
+    "preferences": []
+  },
+  {
+    "password": "User rights",
+    "dateOfBirth": "",
+    "address": "",
+    "isAdmin": false,
+    "isGuest": false,
+    "isEmployee": false,
+    "reservations": [],
+    "name": "fe",
+    "emailAddress": "fjenfejw@gmail.com",
+    "phoneNumber": "3242432432432",
+    "preferences": []
+  },
+  {
+    "password": "User rights",
+    "dateOfBirth": "",
+    "address": "",
+    "isAdmin": false,
+    "isGuest": false,
+    "isEmployee": false,
+    "reservations": [],
+    "name": "yo",
+    "emailAddress": "kanus@gmail.com",
+    "phoneNumber": "24345325435",
+    "preferences": []
+  }
+]
