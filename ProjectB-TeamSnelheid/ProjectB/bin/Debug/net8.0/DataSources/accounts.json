@@ -7,7 +7,7 @@
     "isGuest": false,
     "isEmployee": false,
     "reservations": [],
-    "name": "John Doe",
+    "name": "John DOe",
     "emailAddress": "john@example.com",
     "phoneNumber": "1234567890",
     "preferences": [
@@ -112,5 +112,21 @@
     "emailAddress": "kanus@gmail.com",
     "phoneNumber": "24345325435",
     "preferences": []
+  },
+  {
+    "password": "",
+    "dateOfBirth": "",
+    "address": "eeeeee1111111",
+    "isAdmin": false,
+    "isGuest": true,
+    "isEmployee": false,
+    "reservations": [],
+    "name": "ffff",
+    "emailAddress": "2@d.d",
+    "phoneNumber": "333333333333",
+    "preferences": [
+      "Tree Nuts",
+      "Soy"
+    ]
   }
 ]

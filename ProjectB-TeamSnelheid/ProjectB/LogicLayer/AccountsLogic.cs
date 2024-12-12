@@ -227,6 +227,7 @@ public class AccountsLogic
             if (CurrentAccount != null && CurrentAccount.EmailAddress == email)
             {
                 CurrentAccount.Reservations.Remove(reservation);
+                UpdateList(user);
             }
         }
     }
@@ -365,34 +366,6 @@ public class AccountsLogic
         else
             return null;
     }
-//     public List<string> AllergyOptions()
-// {
-//     if (CurrentAccount?.Preferences == null)
-//     {
-//         CurrentAccount.Preferences = new List<string>();
-//     }
-
-//     var allergyOptions = new List<string>
-//     {
-//         CurrentAccount.Preferences.Contains("Tree Nuts") ? "[X] Tree Nuts" : "[ ] Tree Nuts",
-//         CurrentAccount.Preferences.Contains("Soy") ? "[X] Soy" : "[ ] Soy",
-//         CurrentAccount.Preferences.Contains("Fish") ? "[X] Fish" : "[ ] Fish",
-//         CurrentAccount.Preferences.Contains("Peanuts") ? "[X] Peanuts" : "[ ] Peanuts",
-//         CurrentAccount.Preferences.Contains("Shellfish") ? "[X] Shellfish" : "[ ] Shellfish",
-//         CurrentAccount.Preferences.Contains("Eggs") ? "[X] Eggs" : "[ ] Eggs",
-//         CurrentAccount.Preferences.Contains("Wheats") ? "[X] Wheats" : "[ ] Wheats",
-//         CurrentAccount.Preferences.Contains("Dairy") ? "[X] Dairy" : "[ ] Dairy"
-//     };
-
-//     return allergyOptions;
-// }
-
-    // public List<string> CleanAllergyOptions(List<string> allergies)
-    // {
-    //     return allergies
-    //         .Select(a => a.Replace("[X] ", "").Replace("[ ] ", ""))
-    //         .ToList();
-    // }
 
     public static List<string> GetAllergyOptions()
     {
@@ -405,12 +378,21 @@ public class AccountsLogic
 
     public void EditUserInfo(string name, string phone, string address, List<string> allergies)
     {
+        string email = CurrentAccount?.EmailAddress;
+
+        var user = GetByEmail(email);
+
+        if (!string.IsNullOrWhiteSpace(name)) user.Name = name;
+        if (!string.IsNullOrWhiteSpace(phone)) user.PhoneNumber = phone;
+        if (!string.IsNullOrWhiteSpace(address)) user.Address = address;
+        user.Preferences = allergies;
+
+        UpdateList(user);
+
         if (!string.IsNullOrWhiteSpace(name)) CurrentAccount.Name = name;
         if (!string.IsNullOrWhiteSpace(phone)) CurrentAccount.PhoneNumber = phone;
         if (!string.IsNullOrWhiteSpace(address)) CurrentAccount.Address = address;
         CurrentAccount.Preferences = allergies;
-
-        UpdateList(CurrentAccount);
     }
 
     public void AdminDeleteAccount(string email)

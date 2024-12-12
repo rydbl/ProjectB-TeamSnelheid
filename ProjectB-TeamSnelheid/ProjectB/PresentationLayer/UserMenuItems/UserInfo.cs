@@ -35,8 +35,6 @@ public class UserInfo()
 
         var user = accountsLogic.GetByEmail(AccountsLogic.CurrentAccount?.EmailAddress);
 
-        // for 
-
         List<string> allergyOptions = AccountsLogic.GetAllergyOptions();
         List<string> userAllergies = user.Preferences;
 
