@@ -176,7 +176,8 @@ public  class FoodMenuManager
                 case "[yellow]Go back[/]":
                     // Exit the management loop
                     AnsiConsole.MarkupLine("[bold yellow]Exiting menu management.[/]");
-                    return;
+                    AdminMenu.AdminMenuStart();
+                    break;
             }
         }
     }

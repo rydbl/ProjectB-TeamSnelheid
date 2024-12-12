@@ -154,14 +154,15 @@ public class FoodMenu
         if (newDescription != null) itemToUpdate.Description = newDescription;
         if (newPrice != null)
         {
-            if (newPrice.Contains(','))
+            if (newPrice.Contains('.'))
             {
-                newPrice = newPrice.Replace(',', '.');
+                newPrice = newPrice.Replace('.', ',');
             }
 
             if (double.TryParse(newPrice, out double price))
             {
-                double realPrice = price / 100;
+                double realPrice = price; // 100;
+                Console.WriteLine("test");
                 string formattedPrice = HandleDecimals(realPrice);
                 itemToUpdate.Price = formattedPrice;
             }

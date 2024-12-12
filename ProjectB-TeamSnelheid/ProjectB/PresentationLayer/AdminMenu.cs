@@ -32,7 +32,7 @@ using Spectre.Console;
                 Console.Clear();
                 var foodMenuManager = new FoodMenuManager();
                 foodMenuManager.ManageMenu();
-                AdminMenuStart();
+                // AdminMenuStart();
                 break;
             case "Restaurant Information":
                 Console.Clear();

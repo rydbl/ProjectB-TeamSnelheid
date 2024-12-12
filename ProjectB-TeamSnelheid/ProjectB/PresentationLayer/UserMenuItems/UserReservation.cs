@@ -332,6 +332,11 @@ static class UserReservation
 
         if (confirmation)
         {
+            if (reservationSelection.isPaid)
+            {
+                Console.WriteLine($"Paid total: {FoodMenu.HandleDecimals(reservationSelection.TotalPrice)} will be returned in 5 business days");
+            }
+
             accountsLogic.RemoveSpecificReservation(email, reservationSelection);
 
             Console.WriteLine("Reservation cancelled successfully.\n");
