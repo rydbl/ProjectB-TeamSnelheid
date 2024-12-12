@@ -21,6 +21,7 @@ static class GoBack
             UserMenu.UserMenuStart();
         }
     }
+
     public static void GoBackAdminMenu()
     {
         var choices = AnsiConsole.Prompt(
@@ -36,6 +37,24 @@ static class GoBack
         {
             Console.Clear();
             AdminMenu.AdminMenuStart();
+        }
+    }
+
+    public static void GoBackEmployeeMenu()
+    {
+        var choices = AnsiConsole.Prompt(
+            new SelectionPrompt<string>()
+                .Title("")
+                .PageSize(3)
+                .MoreChoicesText("[grey](Move up and down to reveal more choices)")
+                .AddChoices(new[] {
+                        Enter            
+                }));   
+                
+        if (choices == Enter)
+        {
+            Console.Clear();
+            EmployeeMenu.EmployeeMenuStart();
         }
     }
     public static void GoBackReservationOption()

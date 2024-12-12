@@ -11,7 +11,9 @@
     "emailAddress": "john@example.com",
     "phoneNumber": "1234567890",
     "preferences": [
-      "Soy"
+      "Tree Nuts",
+      "Soy",
+      "Fish"
     ]
   },
   {
@@ -28,7 +30,7 @@
     "preferences": []
   },
   {
-    "password": "Klampetoren12!",
+    "password": "employeepass",
     "dateOfBirth": "01-01-2000",
     "address": "woning 12",
     "isAdmin": false,
@@ -36,7 +38,7 @@
     "isEmployee": true,
     "reservations": [],
     "name": "employee1",
-    "emailAddress": "woningklemmer@hotmail.com",
+    "emailAddress": "employee@hotmail.com",
     "phoneNumber": "0612345678",
     "preferences": []
   },
@@ -91,5 +93,81 @@
     "emailAddress": "kanus@gmail.com",
     "phoneNumber": "24345325435",
     "preferences": []
+  },
+  {
+    "password": "",
+    "dateOfBirth": "12-10-2000",
+    "address": "eeeeee12",
+    "isAdmin": false,
+    "isGuest": true,
+    "isEmployee": false,
+    "reservations": [],
+    "name": "ammar",
+    "emailAddress": "e@gmail.com",
+    "phoneNumber": "22222222222222",
+    "preferences": [
+      "Tree Nuts",
+      "Soy"
+    ]
+  },
+  {
+    "password": "",
+    "dateOfBirth": "",
+    "address": "",
+    "isAdmin": false,
+    "isGuest": true,
+    "isEmployee": false,
+    "reservations": [],
+    "name": "aa",
+    "emailAddress": "1@e.w",
+    "phoneNumber": "1111111111",
+    "preferences": [
+      "Tree Nuts"
+    ]
+  },
+  {
+    "password": "",
+    "dateOfBirth": "",
+    "address": "",
+    "isAdmin": false,
+    "isGuest": true,
+    "isEmployee": false,
+    "reservations": [],
+    "name": "amma",
+    "emailAddress": "1@e.e",
+    "phoneNumber": "1111111111",
+    "preferences": [
+      "Tree Nuts"
+    ]
+  },
+  {
+    "password": "",
+    "dateOfBirth": "",
+    "address": "",
+    "isAdmin": false,
+    "isGuest": true,
+    "isEmployee": false,
+    "reservations": [],
+    "name": "aa",
+    "emailAddress": "1@e.c",
+    "phoneNumber": "1111111111111",
+    "preferences": [
+      "Tree Nuts"
+    ]
+  },
+  {
+    "password": "",
+    "dateOfBirth": "",
+    "address": "",
+    "isAdmin": false,
+    "isGuest": true,
+    "isEmployee": false,
+    "reservations": [],
+    "name": "de",
+    "emailAddress": "2@e.e",
+    "phoneNumber": "222222222222",
+    "preferences": [
+      "Tree Nuts"
+    ]
   }
 ]

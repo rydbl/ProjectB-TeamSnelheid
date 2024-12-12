@@ -5,6 +5,10 @@ using Spectre.Console;
  {
     public static void UserMenuStart()
     {
+        AccountsLogic accountsLogic = new AccountsLogic();
+        string email = AccountsLogic.CurrentAccount?.EmailAddress;
+        var user = accountsLogic.GetByEmail(email);
+
         var choices = AnsiConsole.Prompt(
             new SelectionPrompt<string>()
                 .Title("Welcome to the User Menu!")
@@ -67,9 +71,17 @@ using Spectre.Console;
                         GoBack.GoBackProfileMenu();
                         break;
                     case "Delete Account":
-                        UserInfo.DeleteAccount();
-                        // if user deletes their account it should go back to main menu
-                        GoBack.GoBackProfileMenu();
+                        if (user.IsGuest == false)
+                        {
+                            UserInfo.DeleteAccount();
+                            // if user deletes their account it should go back to main menu
+                            GoBack.GoBackProfileMenu();
+                            break;
+                        }
+                        else
+                        {
+                            Console.WriteLine("As a guest you can not delete your account");
+                        }
                         break;
                     case "[yellow]Go Back to User Menu[/]":
                         inProfile = false;

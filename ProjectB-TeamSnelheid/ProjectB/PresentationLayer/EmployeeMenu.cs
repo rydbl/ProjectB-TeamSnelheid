@@ -20,22 +20,22 @@ using Spectre.Console;
         switch (choices)
         {
             case "Make a reservation":
-                AdminReservation.MakeReservation();
+                EmployeeReservation.MakeReservationEmployee();
                 EmployeeMenuStart();
                 break;
             case "Change a reservation":
-                AdminReservation.ChangeReservation();
+                EmployeeReservation.ChangeReservationEmployee();
                 EmployeeMenuStart();
                 break;
             case "Cancel reservation":
-                AdminReservation.CancelReservation();
+                EmployeeReservation.CancelReservationEmployee();
                 EmployeeMenuStart();
                 break;
             case "View reservations":
-                AdminReservation.ViewReservation();
+                EmployeeReservation.ViewReservationEmployee();
                 EmployeeMenuStart();
                 break;
-            case "Edit Food menu": // Edit foods and prices
+            case "Edit Food menu":
                 Console.WriteLine("This feature is not yet implemented");
                 break;
              case "Log out":

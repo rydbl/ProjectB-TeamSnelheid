@@ -75,7 +75,8 @@ public class FoodMenu
 
     if (double.TryParse(price, out double price1))
     {
-        formattedPrice = HandleDecimals(price1);
+        double realPrice = price1 / 100;
+        formattedPrice = HandleDecimals(realPrice);
     }
     else
     {
@@ -160,7 +161,8 @@ public class FoodMenu
 
             if (double.TryParse(newPrice, out double price))
             {
-                string formattedPrice = HandleDecimals(price);
+                double realPrice = price / 100;
+                string formattedPrice = HandleDecimals(realPrice);
                 itemToUpdate.Price = formattedPrice;
             }
             else
