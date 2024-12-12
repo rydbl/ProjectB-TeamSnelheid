@@ -151,6 +151,11 @@ public class SignUpChecker
         {
             name = getName();
 
+            if (name == string.Empty)
+            {
+                return name;
+            }
+
             if (!Regex.IsMatch(name, namePattern))
             {
                 Console.WriteLine("Name is invalid. It must contain only letters and be at least 2 characters long.");

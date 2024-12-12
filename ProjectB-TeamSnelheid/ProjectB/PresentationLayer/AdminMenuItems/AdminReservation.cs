@@ -635,6 +635,9 @@ public class EmployeeReservation
         reservationSelection.PersonCount = personCount;
         reservationSelection.TableNumber = tableSelection.TableNumber;
 
+        var durationHours = 2;
+        reservationSelection.EndTime = date.AddHours(durationHours).ToString("HH:mm");
+        
         var confirmation = AnsiConsole.Prompt(
             new TextPrompt<bool>($"Are you sure you want to change this reservation?")
                 .AddChoice(true)

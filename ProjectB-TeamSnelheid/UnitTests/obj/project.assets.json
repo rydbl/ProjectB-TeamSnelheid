@@ -1119,11 +1119,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ryand\\Desktop\\ProjectB-TeamSnelheid\\ProjectB-TeamSnelheid\\ProjectB-TeamSnelheid\\UnitTests\\UnitTests.csproj",
+      "projectUniqueName": "C:\\Users\\ryand\\OneDrive\\Bureaublad\\INF HR\\C#laptop\\ProjectB-TeamSnelheid\\ProjectB-TeamSnelheid\\UnitTests\\UnitTests.csproj",
       "projectName": "UnitTests",
-      "projectPath": "C:\\Users\\ryand\\Desktop\\ProjectB-TeamSnelheid\\ProjectB-TeamSnelheid\\ProjectB-TeamSnelheid\\UnitTests\\UnitTests.csproj",
+      "projectPath": "C:\\Users\\ryand\\OneDrive\\Bureaublad\\INF HR\\C#laptop\\ProjectB-TeamSnelheid\\ProjectB-TeamSnelheid\\UnitTests\\UnitTests.csproj",
       "packagesPath": "C:\\Users\\ryand\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ryand\\Desktop\\ProjectB-TeamSnelheid\\ProjectB-TeamSnelheid\\ProjectB-TeamSnelheid\\UnitTests\\obj\\",
+      "outputPath": "C:\\Users\\ryand\\OneDrive\\Bureaublad\\INF HR\\C#laptop\\ProjectB-TeamSnelheid\\ProjectB-TeamSnelheid\\UnitTests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ryand\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1140,8 +1140,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\ryand\\Desktop\\ProjectB-TeamSnelheid\\ProjectB-TeamSnelheid\\ProjectB-TeamSnelheid\\ProjectB\\ProjectB.csproj": {
-              "projectPath": "C:\\Users\\ryand\\Desktop\\ProjectB-TeamSnelheid\\ProjectB-TeamSnelheid\\ProjectB-TeamSnelheid\\ProjectB\\ProjectB.csproj"
+            "C:\\Users\\ryand\\OneDrive\\Bureaublad\\INF HR\\C#laptop\\ProjectB-TeamSnelheid\\ProjectB-TeamSnelheid\\ProjectB\\ProjectB.csproj": {
+              "projectPath": "C:\\Users\\ryand\\OneDrive\\Bureaublad\\INF HR\\C#laptop\\ProjectB-TeamSnelheid\\ProjectB-TeamSnelheid\\ProjectB\\ProjectB.csproj"
             }
           }
         }
@@ -1194,7 +1194,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

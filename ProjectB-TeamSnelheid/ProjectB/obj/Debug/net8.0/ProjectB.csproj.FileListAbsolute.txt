@@ -60,3 +60,27 @@ C:\Users\cgeri\OneDrive\Documenten\GitHub\ProjectB-TeamSnelheid\ProjectB-TeamSne
 C:\Users\cgeri\OneDrive\Documenten\GitHub\ProjectB-TeamSnelheid\ProjectB-TeamSnelheid\ProjectB\obj\Debug\net8.0\ProjectB.pdb
 C:\Users\cgeri\OneDrive\Documenten\GitHub\ProjectB-TeamSnelheid\ProjectB-TeamSnelheid\ProjectB\obj\Debug\net8.0\ProjectB.genruntimeconfig.cache
 C:\Users\cgeri\OneDrive\Documenten\GitHub\ProjectB-TeamSnelheid\ProjectB-TeamSnelheid\ProjectB\obj\Debug\net8.0\ref\ProjectB.dll
+C:\Users\ryand\OneDrive\Bureaublad\INF HR\C#laptop\ProjectB-TeamSnelheid\ProjectB-TeamSnelheid\ProjectB\bin\Debug\net8.0\ProjectB.exe
+C:\Users\ryand\OneDrive\Bureaublad\INF HR\C#laptop\ProjectB-TeamSnelheid\ProjectB-TeamSnelheid\ProjectB\bin\Debug\net8.0\ProjectB.deps.json
+C:\Users\ryand\OneDrive\Bureaublad\INF HR\C#laptop\ProjectB-TeamSnelheid\ProjectB-TeamSnelheid\ProjectB\bin\Debug\net8.0\ProjectB.runtimeconfig.json
+C:\Users\ryand\OneDrive\Bureaublad\INF HR\C#laptop\ProjectB-TeamSnelheid\ProjectB-TeamSnelheid\ProjectB\bin\Debug\net8.0\ProjectB.dll
+C:\Users\ryand\OneDrive\Bureaublad\INF HR\C#laptop\ProjectB-TeamSnelheid\ProjectB-TeamSnelheid\ProjectB\bin\Debug\net8.0\ProjectB.pdb
+C:\Users\ryand\OneDrive\Bureaublad\INF HR\C#laptop\ProjectB-TeamSnelheid\ProjectB-TeamSnelheid\ProjectB\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\ryand\OneDrive\Bureaublad\INF HR\C#laptop\ProjectB-TeamSnelheid\ProjectB-TeamSnelheid\ProjectB\bin\Debug\net8.0\Spectre.Console.dll
+C:\Users\ryand\OneDrive\Bureaublad\INF HR\C#laptop\ProjectB-TeamSnelheid\ProjectB-TeamSnelheid\ProjectB\bin\Debug\net8.0\Spectre.Console.Cli.dll
+C:\Users\ryand\OneDrive\Bureaublad\INF HR\C#laptop\ProjectB-TeamSnelheid\ProjectB-TeamSnelheid\ProjectB\bin\Debug\net8.0\de\Spectre.Console.Cli.resources.dll
+C:\Users\ryand\OneDrive\Bureaublad\INF HR\C#laptop\ProjectB-TeamSnelheid\ProjectB-TeamSnelheid\ProjectB\bin\Debug\net8.0\es\Spectre.Console.Cli.resources.dll
+C:\Users\ryand\OneDrive\Bureaublad\INF HR\C#laptop\ProjectB-TeamSnelheid\ProjectB-TeamSnelheid\ProjectB\bin\Debug\net8.0\fr\Spectre.Console.Cli.resources.dll
+C:\Users\ryand\OneDrive\Bureaublad\INF HR\C#laptop\ProjectB-TeamSnelheid\ProjectB-TeamSnelheid\ProjectB\bin\Debug\net8.0\sv\Spectre.Console.Cli.resources.dll
+C:\Users\ryand\OneDrive\Bureaublad\INF HR\C#laptop\ProjectB-TeamSnelheid\ProjectB-TeamSnelheid\ProjectB\obj\Debug\net8.0\ProjectB.csproj.AssemblyReference.cache
+C:\Users\ryand\OneDrive\Bureaublad\INF HR\C#laptop\ProjectB-TeamSnelheid\ProjectB-TeamSnelheid\ProjectB\obj\Debug\net8.0\ProjectB.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ryand\OneDrive\Bureaublad\INF HR\C#laptop\ProjectB-TeamSnelheid\ProjectB-TeamSnelheid\ProjectB\obj\Debug\net8.0\ProjectB.AssemblyInfoInputs.cache
+C:\Users\ryand\OneDrive\Bureaublad\INF HR\C#laptop\ProjectB-TeamSnelheid\ProjectB-TeamSnelheid\ProjectB\obj\Debug\net8.0\ProjectB.AssemblyInfo.cs
+C:\Users\ryand\OneDrive\Bureaublad\INF HR\C#laptop\ProjectB-TeamSnelheid\ProjectB-TeamSnelheid\ProjectB\obj\Debug\net8.0\ProjectB.csproj.CoreCompileInputs.cache
+C:\Users\ryand\OneDrive\Bureaublad\INF HR\C#laptop\ProjectB-TeamSnelheid\ProjectB-TeamSnelheid\ProjectB\obj\Debug\net8.0\ProjectB.sourcelink.json
+C:\Users\ryand\OneDrive\Bureaublad\INF HR\C#laptop\ProjectB-TeamSnelheid\ProjectB-TeamSnelheid\ProjectB\obj\Debug\net8.0\ProjectB.csproj.Up2Date
+C:\Users\ryand\OneDrive\Bureaublad\INF HR\C#laptop\ProjectB-TeamSnelheid\ProjectB-TeamSnelheid\ProjectB\obj\Debug\net8.0\ProjectB.dll
+C:\Users\ryand\OneDrive\Bureaublad\INF HR\C#laptop\ProjectB-TeamSnelheid\ProjectB-TeamSnelheid\ProjectB\obj\Debug\net8.0\refint\ProjectB.dll
+C:\Users\ryand\OneDrive\Bureaublad\INF HR\C#laptop\ProjectB-TeamSnelheid\ProjectB-TeamSnelheid\ProjectB\obj\Debug\net8.0\ProjectB.pdb
+C:\Users\ryand\OneDrive\Bureaublad\INF HR\C#laptop\ProjectB-TeamSnelheid\ProjectB-TeamSnelheid\ProjectB\obj\Debug\net8.0\ProjectB.genruntimeconfig.cache
+C:\Users\ryand\OneDrive\Bureaublad\INF HR\C#laptop\ProjectB-TeamSnelheid\ProjectB-TeamSnelheid\ProjectB\obj\Debug\net8.0\ref\ProjectB.dll
