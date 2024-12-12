@@ -258,6 +258,7 @@ public class AccountsLogic
             user.Reservations[0].Time = reservation.Time;
             user.Reservations[0].PersonCount = reservation.PersonCount;
             user.Reservations[0].TableNumber = reservation.TableNumber;
+            user.Reservations[0].EndTime = reservation.EndTime;
             UpdateList(user);
         }
     }

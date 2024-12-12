@@ -23,7 +23,26 @@
     "isAdmin": true,
     "isGuest": false,
     "isEmployee": false,
-    "reservations": [],
+    "reservations": [
+      {
+        "Date": "2024-12-13T14:00:00+01:00",
+        "Time": "14:00",
+        "EndTime": "16:00",
+        "PersonCount": "1",
+        "TableNumber": 16,
+        "TotalPrice": 0,
+        "isPaid": false,
+        "People": [
+          {
+            "Name": "qwer",
+            "BlindExperience": false,
+            "Food": [],
+            "Allergies": [],
+            "price": 0
+          }
+        ]
+      }
+    ],
     "name": "Admin Jane",
     "emailAddress": "admin@example.com",
     "phoneNumber": "987654321",
@@ -38,7 +57,7 @@
     "isEmployee": true,
     "reservations": [],
     "name": "employee1",
-    "emailAddress": "employee@hotmail.com",
+    "emailAddress": "employee@example.com",
     "phoneNumber": "0612345678",
     "preferences": []
   },

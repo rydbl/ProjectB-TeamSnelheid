@@ -38,14 +38,14 @@ public class UserInfo()
         List<string> allergyOptions = AccountsLogic.GetAllergyOptions();
         List<string> userAllergies = user.Preferences;
 
-        var updatedName = AnsiConsole.Prompt(
-            new TextPrompt<string>($"Enter Name [grey](current: {user.Name})[/]:").AllowEmpty());
+        var updatedName = signUpChecker.ValidateName(() =>
+            AnsiConsole.Prompt(new TextPrompt<string>($"Enter Name [grey](current: {user.Name})[/]:").AllowEmpty()));
 
         var updatedPhone = signUpChecker.EditPhoneNumber(() =>
             AnsiConsole.Prompt(new TextPrompt<string>($"Enter your Phone Number [grey](current: {user.PhoneNumber})[/]").AllowEmpty()));
 
-        var updatedAddress = AnsiConsole.Prompt(
-            new TextPrompt<string>($"Enter your Address [grey](current: {user.Address})[/]").AllowEmpty());
+        var updatedAddress = signUpChecker.ValidateAddress(() =>
+            AnsiConsole.Prompt(new TextPrompt<string>($"Enter your Address [grey](current: {user.Address})[/]").AllowEmpty()));
 
         var allergyPrompt = new MultiSelectionPrompt<string>()
                 .Title("Update allergies [grey](use <space> to select/deselect)[/]:")

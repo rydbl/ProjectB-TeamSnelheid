@@ -314,6 +314,9 @@ static class AdminReservation
         reservationSelection.PersonCount = personCount;
         reservationSelection.TableNumber = tableSelection.TableNumber;
 
+        var durationHours = 2;
+        reservationSelection.EndTime = date.AddHours(durationHours).ToString("HH:mm");
+
         var confirmation = AnsiConsole.Prompt(
             new TextPrompt<bool>($"Are you sure you want to change this reservation?")
                 .AddChoice(true)
@@ -325,6 +328,7 @@ static class AdminReservation
             accountsLogic.UpdateReservation(userMail, reservationSelection);
 
             Console.WriteLine($"Reservation updated:\nDate: {date:dddd, MMMM dd, yyyy}\nStart Time: {time}\nEnd Time: {reservationSelection.EndTime}\nPeople: {personCount}\nTable: {tableSelection.TableNumber}\n");
+
             
             GoBack.GoBackReservationOption();
         }
