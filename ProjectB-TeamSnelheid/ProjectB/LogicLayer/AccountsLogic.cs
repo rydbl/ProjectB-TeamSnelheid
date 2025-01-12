@@ -55,6 +55,7 @@ public class AccountsLogic
             _accounts.Add(account);
         }
         AccountsAccess.WriteAll(_accounts);
+
     }
 
     public UserModel GetByEmail (string email)
@@ -78,17 +79,33 @@ public class AccountsLogic
 
     public UserModel? CheckLogin(string email, string password)
     {
+        var user = CheckEmail(email);
+
+        if (user != null && CheckPassword(user, password))
+        {
+            CurrentAccount = user;
+            return user;
+        }
+
+        return null;
+    }
+    public UserModel? CheckEmail(string email)
+    {
         if (string.IsNullOrEmpty(email))
         {
             return null;
         }
 
-        CurrentAccount = _accounts.Find(i =>
-            i.EmailAddress.Equals(email, StringComparison.OrdinalIgnoreCase) &&
-            i.Password == password);
+        return _accounts.Find(i => i.EmailAddress.Equals(email, StringComparison.OrdinalIgnoreCase));
+    }
+    public bool CheckPassword(UserModel user, string password)
+    {
+        if (user == null || string.IsNullOrEmpty(password))
+        {
+            return false;
+        }
 
-        return CurrentAccount;
-
+        return user.Password == password;
     }
 
     public void AddAccountForTesting(UserModel user)
@@ -457,5 +474,4 @@ public class AccountsLogic
             Console.WriteLine("Operation canceled. Your account was not deleted.");
         }
     }
-
 }
